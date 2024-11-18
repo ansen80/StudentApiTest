@@ -26,7 +26,7 @@ public class StudentApiTest {
         String newStudent = """
             {
                 "id": null,
-                "name": "John Doe",
+                "name": "Andrey",
                 "marks": [5, 4, 3]
             }
         """;
@@ -47,7 +47,7 @@ public class StudentApiTest {
         String updatedStudent = """
             {
                 "id": 1,
-                "name": "John Smith",
+                "name": "Ivan",
                 "marks": [4, 4, 4]
             }
         """;
